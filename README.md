@@ -15,3 +15,5 @@ sudo /opt/puppetlabs/bin/puppet apply /etc/puppetlabs/code/environments/producti
 
 Contains logging directory, codedir, environment
 Puppet conf: /etc/puppetlabs/puppet/puppet.conf
+
+TODO: find a nice command then this /opt/puppetlabs/bin/puppet using path env.
