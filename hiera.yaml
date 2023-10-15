@@ -3,11 +3,11 @@ version: 5
 defaults:
   datadir: data
 hierarchy:
-  - name: "Common data"
-    path: "common.yaml"
-  - name: "Environment-specific data, development"
-    paths:
-      - "development.yaml"
   - name: "Environment-specific data, production"
     paths:
       - "production.yaml"
+  - name: "Environment-specific data, development"
+    paths:
+      - "development.yaml"
+  - name: "Common data"
+    path: "common.yaml"
